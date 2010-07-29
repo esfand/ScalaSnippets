@@ -55,7 +55,9 @@ package com.lingona.scala {
 			def printLabel[T](t: T)(implicit lm: LabelMaker[T]) = lm.toLabel(t)
 			import SpecialLabelMaker._
 			val label  = printLabel(Address(100, "Monroe Street", "Denver", "CO", "80231"))		
-			println(label)	
+			println(label)
+			
+			// Explicit Parameter
 			val label2 = printLabel(Address(100, "Monroe Street", "Denver", "CO", "80231"))(LabelMaker.AddressLabelMaker)
 			println(label2)	
 		}
