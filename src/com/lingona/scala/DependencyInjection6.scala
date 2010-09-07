@@ -1,6 +1,6 @@
 package com.lingona.scala
 
-	object DependencyInjection5 {
+	object DependencyInjection6 {
 	// Simplified version of Cake pattern by Jesper de Jong
 	// see: http://jonasboner.com/2008/10/06/real-world-scala-dependency-injection-di.html
 	
